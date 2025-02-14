@@ -17,8 +17,8 @@ class Telephone {
 
     //Remove phone number
     removePhoneNumber(phoneNumber) {
-        const phoneNumberPosition = TelephoneNumbers.indexOf(this.phoneNumber);
-        if (TelephoneNumbers.includes(this.phoneNumber) === true) {       
+        const phoneNumberPosition = TelephoneNumbers.indexOf(phoneNumber);
+        if (TelephoneNumbers.includes(phoneNumber) === true) {       
         TelephoneNumbers.splice(phoneNumberPosition, 1);
         console.log(`${phoneNumber} was removed successfully.`)
         } else {
